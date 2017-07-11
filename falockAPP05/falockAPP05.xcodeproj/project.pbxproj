@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBDC0141EFA0036004E3329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC0131EFA0036004E3329 /* AppDelegate.swift */; };
+		CEBDC0161EFA0036004E3329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC0151EFA0036004E3329 /* ViewController.swift */; };
+		CEBDC0191EFA0036004E3329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBDC0171EFA0036004E3329 /* Main.storyboard */; };
+		CEBDC01B1EFA0036004E3329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBDC01A1EFA0036004E3329 /* Assets.xcassets */; };
+		CEBDC01E1EFA0036004E3329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBDC01C1EFA0036004E3329 /* LaunchScreen.storyboard */; };
+		CEBDC0261EFA0067004E3329 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC0251EFA0067004E3329 /* Page2ViewController.swift */; };
+		CEBDC0281EFA0547004E3329 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC0271EFA0547004E3329 /* Page3ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEBDC0101EFA0036004E3329 /* falockAPP05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = falockAPP05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBDC0131EFA0036004E3329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBDC0151EFA0036004E3329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBDC0181EFA0036004E3329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBDC01A1EFA0036004E3329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBDC01D1EFA0036004E3329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBDC01F1EFA0036004E3329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBDC0251EFA0067004E3329 /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		CEBDC0271EFA0547004E3329 /* Page3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBDC00D1EFA0036004E3329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBDC0071EFA0036004E3329 = {
+			isa = PBXGroup;
+			children = (
+				CEBDC0121EFA0036004E3329 /* falockAPP05 */,
+				CEBDC0111EFA0036004E3329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBDC0111EFA0036004E3329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDC0101EFA0036004E3329 /* falockAPP05.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBDC0121EFA0036004E3329 /* falockAPP05 */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDC0131EFA0036004E3329 /* AppDelegate.swift */,
+				CEBDC0151EFA0036004E3329 /* ViewController.swift */,
+				CEBDC0251EFA0067004E3329 /* Page2ViewController.swift */,
+				CEBDC0171EFA0036004E3329 /* Main.storyboard */,
+				CEBDC01A1EFA0036004E3329 /* Assets.xcassets */,
+				CEBDC01C1EFA0036004E3329 /* LaunchScreen.storyboard */,
+				CEBDC01F1EFA0036004E3329 /* Info.plist */,
+				CEBDC0271EFA0547004E3329 /* Page3ViewController.swift */,
+			);
+			path = falockAPP05;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBDC00F1EFA0036004E3329 /* falockAPP05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBDC0221EFA0036004E3329 /* Build configuration list for PBXNativeTarget "falockAPP05" */;
+			buildPhases = (
+				CEBDC00C1EFA0036004E3329 /* Sources */,
+				CEBDC00D1EFA0036004E3329 /* Frameworks */,
+				CEBDC00E1EFA0036004E3329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = falockAPP05;
+			productName = falockAPP05;
+			productReference = CEBDC0101EFA0036004E3329 /* falockAPP05.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBDC0081EFA0036004E3329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEBDC00F1EFA0036004E3329 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C9FGPCC4D9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEBDC00B1EFA0036004E3329 /* Build configuration list for PBXProject "falockAPP05" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBDC0071EFA0036004E3329;
+			productRefGroup = CEBDC0111EFA0036004E3329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBDC00F1EFA0036004E3329 /* falockAPP05 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBDC00E1EFA0036004E3329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDC01E1EFA0036004E3329 /* LaunchScreen.storyboard in Resources */,
+				CEBDC01B1EFA0036004E3329 /* Assets.xcassets in Resources */,
+				CEBDC0191EFA0036004E3329 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBDC00C1EFA0036004E3329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDC0161EFA0036004E3329 /* ViewController.swift in Sources */,
+				CEBDC0261EFA0067004E3329 /* Page2ViewController.swift in Sources */,
+				CEBDC0141EFA0036004E3329 /* AppDelegate.swift in Sources */,
+				CEBDC0281EFA0547004E3329 /* Page3ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEBDC0171EFA0036004E3329 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBDC0181EFA0036004E3329 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBDC01C1EFA0036004E3329 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBDC01D1EFA0036004E3329 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBDC0201EFA0036004E3329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBDC0211EFA0036004E3329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBDC0231EFA0036004E3329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = falockAPP05/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1007.falockAPP05;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEBDC0241EFA0036004E3329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = falockAPP05/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1007.falockAPP05;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBDC00B1EFA0036004E3329 /* Build configuration list for PBXProject "falockAPP05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDC0201EFA0036004E3329 /* Debug */,
+				CEBDC0211EFA0036004E3329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBDC0221EFA0036004E3329 /* Build configuration list for PBXNativeTarget "falockAPP05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDC0231EFA0036004E3329 /* Debug */,
+				CEBDC0241EFA0036004E3329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBDC0081EFA0036004E3329 /* Project object */;
+}
