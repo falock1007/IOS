@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF6EE251F0B2C1100B866AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6EE241F0B2C1100B866AF /* AppDelegate.swift */; };
+		CEF6EE271F0B2C1100B866AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6EE261F0B2C1100B866AF /* ViewController.swift */; };
+		CEF6EE2A1F0B2C1100B866AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE281F0B2C1100B866AF /* Main.storyboard */; };
+		CEF6EE2C1F0B2C1100B866AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE2B1F0B2C1100B866AF /* Assets.xcassets */; };
+		CEF6EE2F1F0B2C1100B866AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE2D1F0B2C1100B866AF /* LaunchScreen.storyboard */; };
+		CEF6EE551F0B43F600B866AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE541F0B43F600B866AF /* GoogleService-Info.plist */; };
+		FC4E0C69A64640AD4D081821 /* Pods_falockAPP20.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BDACE612A63DE03A0C0346 /* Pods_falockAPP20.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CBE1AE75A4C92A989386740 /* Pods-falockAPP20.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falockAPP20.debug.xcconfig"; path = "Pods/Target Support Files/Pods-falockAPP20/Pods-falockAPP20.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BDACE612A63DE03A0C0346 /* Pods_falockAPP20.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_falockAPP20.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF6EE211F0B2C1100B866AF /* falockAPP20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = falockAPP20.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF6EE241F0B2C1100B866AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF6EE261F0B2C1100B866AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF6EE291F0B2C1100B866AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF6EE2B1F0B2C1100B866AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF6EE2E1F0B2C1100B866AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF6EE301F0B2C1100B866AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF6EE541F0B43F600B866AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB471A8F3325DE7E9605018A /* Pods-falockAPP20.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-falockAPP20.release.xcconfig"; path = "Pods/Target Support Files/Pods-falockAPP20/Pods-falockAPP20.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF6EE1E1F0B2C1100B866AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4E0C69A64640AD4D081821 /* Pods_falockAPP20.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AC0F29934DD30726BF97DD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CBE1AE75A4C92A989386740 /* Pods-falockAPP20.debug.xcconfig */,
+				DB471A8F3325DE7E9605018A /* Pods-falockAPP20.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D05921A70F21B5F2E55AF10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1BDACE612A63DE03A0C0346 /* Pods_falockAPP20.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEF6EE181F0B2C1100B866AF = {
+			isa = PBXGroup;
+			children = (
+				CEF6EE231F0B2C1100B866AF /* falockAPP20 */,
+				CEF6EE221F0B2C1100B866AF /* Products */,
+				6AC0F29934DD30726BF97DD1 /* Pods */,
+				9D05921A70F21B5F2E55AF10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF6EE221F0B2C1100B866AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF6EE211F0B2C1100B866AF /* falockAPP20.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF6EE231F0B2C1100B866AF /* falockAPP20 */ = {
+			isa = PBXGroup;
+			children = (
+				CEF6EE241F0B2C1100B866AF /* AppDelegate.swift */,
+				CEF6EE261F0B2C1100B866AF /* ViewController.swift */,
+				CEF6EE281F0B2C1100B866AF /* Main.storyboard */,
+				CEF6EE2B1F0B2C1100B866AF /* Assets.xcassets */,
+				CEF6EE2D1F0B2C1100B866AF /* LaunchScreen.storyboard */,
+				CEF6EE541F0B43F600B866AF /* GoogleService-Info.plist */,
+				CEF6EE301F0B2C1100B866AF /* Info.plist */,
+			);
+			path = falockAPP20;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF6EE201F0B2C1100B866AF /* falockAPP20 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF6EE331F0B2C1100B866AF /* Build configuration list for PBXNativeTarget "falockAPP20" */;
+			buildPhases = (
+				D67D56AB2040297937068DD4 /* [CP] Check Pods Manifest.lock */,
+				CEF6EE1D1F0B2C1100B866AF /* Sources */,
+				CEF6EE1E1F0B2C1100B866AF /* Frameworks */,
+				CEF6EE1F1F0B2C1100B866AF /* Resources */,
+				5AF013D406BB4E5D8117E875 /* [CP] Embed Pods Frameworks */,
+				3A93F7936BBA133390037513 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = falockAPP20;
+			productName = falockAPP20;
+			productReference = CEF6EE211F0B2C1100B866AF /* falockAPP20.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF6EE191F0B2C1100B866AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEF6EE201F0B2C1100B866AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C9FGPCC4D9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEF6EE1C1F0B2C1100B866AF /* Build configuration list for PBXProject "falockAPP20" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF6EE181F0B2C1100B866AF;
+			productRefGroup = CEF6EE221F0B2C1100B866AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF6EE201F0B2C1100B866AF /* falockAPP20 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF6EE1F1F0B2C1100B866AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF6EE2F1F0B2C1100B866AF /* LaunchScreen.storyboard in Resources */,
+				CEF6EE551F0B43F600B866AF /* GoogleService-Info.plist in Resources */,
+				CEF6EE2C1F0B2C1100B866AF /* Assets.xcassets in Resources */,
+				CEF6EE2A1F0B2C1100B866AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A93F7936BBA133390037513 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-falockAPP20/Pods-falockAPP20-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF013D406BB4E5D8117E875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-falockAPP20/Pods-falockAPP20-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67D56AB2040297937068DD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF6EE1D1F0B2C1100B866AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF6EE271F0B2C1100B866AF /* ViewController.swift in Sources */,
+				CEF6EE251F0B2C1100B866AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF6EE281F0B2C1100B866AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF6EE291F0B2C1100B866AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF6EE2D1F0B2C1100B866AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF6EE2E1F0B2C1100B866AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF6EE311F0B2C1100B866AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF6EE321F0B2C1100B866AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF6EE341F0B2C1100B866AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBE1AE75A4C92A989386740 /* Pods-falockAPP20.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = falockAPP20/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1007.falockAPP20;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEF6EE351F0B2C1100B866AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB471A8F3325DE7E9605018A /* Pods-falockAPP20.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = falockAPP20/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1007.falockAPP20;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF6EE1C1F0B2C1100B866AF /* Build configuration list for PBXProject "falockAPP20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF6EE311F0B2C1100B866AF /* Debug */,
+				CEF6EE321F0B2C1100B866AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF6EE331F0B2C1100B866AF /* Build configuration list for PBXNativeTarget "falockAPP20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF6EE341F0B2C1100B866AF /* Debug */,
+				CEF6EE351F0B2C1100B866AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF6EE191F0B2C1100B866AF /* Project object */;
+}
