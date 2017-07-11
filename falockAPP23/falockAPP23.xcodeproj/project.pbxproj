@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECD522A1F0C7380001E8A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD52291F0C7380001E8A45 /* AppDelegate.swift */; };
+		CECD522C1F0C7380001E8A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD522B1F0C7380001E8A45 /* ViewController.swift */; };
+		CECD52311F0C7380001E8A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD52301F0C7380001E8A45 /* Assets.xcassets */; };
+		CECD52341F0C7380001E8A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD52321F0C7380001E8A45 /* LaunchScreen.storyboard */; };
+		CECD52421F0C7CE3001E8A45 /* Back_24px_1177132_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = CECD52411F0C7CE3001E8A45 /* Back_24px_1177132_easyicon.net.png */; };
+		CECD52441F0C8076001E8A45 /* P1VCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD52431F0C8076001E8A45 /* P1VCViewController.swift */; };
+		CECD52461F0C8089001E8A45 /* P2VCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD52451F0C8089001E8A45 /* P2VCViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CECD52261F0C7380001E8A45 /* falockAPP23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = falockAPP23.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECD52291F0C7380001E8A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECD522B1F0C7380001E8A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CECD52301F0C7380001E8A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECD52331F0C7380001E8A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECD52351F0C7380001E8A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECD52411F0C7CE3001E8A45 /* Back_24px_1177132_easyicon.net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_24px_1177132_easyicon.net.png; sourceTree = "<group>"; };
+		CECD52431F0C8076001E8A45 /* P1VCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1VCViewController.swift; sourceTree = "<group>"; };
+		CECD52451F0C8089001E8A45 /* P2VCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2VCViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECD52231F0C7380001E8A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECD521D1F0C7380001E8A45 = {
+			isa = PBXGroup;
+			children = (
+				CECD52281F0C7380001E8A45 /* falockAPP23 */,
+				CECD52271F0C7380001E8A45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECD52271F0C7380001E8A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECD52261F0C7380001E8A45 /* falockAPP23.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECD52281F0C7380001E8A45 /* falockAPP23 */ = {
+			isa = PBXGroup;
+			children = (
+				CECD52411F0C7CE3001E8A45 /* Back_24px_1177132_easyicon.net.png */,
+				CECD52291F0C7380001E8A45 /* AppDelegate.swift */,
+				CECD522B1F0C7380001E8A45 /* ViewController.swift */,
+				CECD52301F0C7380001E8A45 /* Assets.xcassets */,
+				CECD52321F0C7380001E8A45 /* LaunchScreen.storyboard */,
+				CECD52351F0C7380001E8A45 /* Info.plist */,
+				CECD52431F0C8076001E8A45 /* P1VCViewController.swift */,
+				CECD52451F0C8089001E8A45 /* P2VCViewController.swift */,
+			);
+			path = falockAPP23;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECD52251F0C7380001E8A45 /* falockAPP23 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECD52381F0C7380001E8A45 /* Build configuration list for PBXNativeTarget "falockAPP23" */;
+			buildPhases = (
+				CECD52221F0C7380001E8A45 /* Sources */,
+				CECD52231F0C7380001E8A45 /* Frameworks */,
+				CECD52241F0C7380001E8A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = falockAPP23;
+			productName = falockAPP23;
+			productReference = CECD52261F0C7380001E8A45 /* falockAPP23.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECD521E1F0C7380001E8A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CECD52251F0C7380001E8A45 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C9FGPCC4D9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CECD52211F0C7380001E8A45 /* Build configuration list for PBXProject "falockAPP23" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECD521D1F0C7380001E8A45;
+			productRefGroup = CECD52271F0C7380001E8A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECD52251F0C7380001E8A45 /* falockAPP23 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECD52241F0C7380001E8A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD52341F0C7380001E8A45 /* LaunchScreen.storyboard in Resources */,
+				CECD52311F0C7380001E8A45 /* Assets.xcassets in Resources */,
+				CECD52421F0C7CE3001E8A45 /* Back_24px_1177132_easyicon.net.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECD52221F0C7380001E8A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD52441F0C8076001E8A45 /* P1VCViewController.swift in Sources */,
+				CECD52461F0C8089001E8A45 /* P2VCViewController.swift in Sources */,
+				CECD522C1F0C7380001E8A45 /* ViewController.swift in Sources */,
+				CECD522A1F0C7380001E8A45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CECD52321F0C7380001E8A45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECD52331F0C7380001E8A45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECD52361F0C7380001E8A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECD52371F0C7380001E8A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECD52391F0C7380001E8A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = falockAPP23/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1007.falockAPP23;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CECD523A1F0C7380001E8A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = falockAPP23/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1007.falockAPP23;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECD52211F0C7380001E8A45 /* Build configuration list for PBXProject "falockAPP23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD52361F0C7380001E8A45 /* Debug */,
+				CECD52371F0C7380001E8A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECD52381F0C7380001E8A45 /* Build configuration list for PBXNativeTarget "falockAPP23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD52391F0C7380001E8A45 /* Debug */,
+				CECD523A1F0C7380001E8A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECD521E1F0C7380001E8A45 /* Project object */;
+}

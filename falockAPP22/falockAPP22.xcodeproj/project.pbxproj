@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF6EE631F0B651300B866AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6EE621F0B651300B866AF /* AppDelegate.swift */; };
+		CEF6EE651F0B651300B866AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6EE641F0B651300B866AF /* ViewController.swift */; };
+		CEF6EE681F0B651300B866AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE661F0B651300B866AF /* Main.storyboard */; };
+		CEF6EE6A1F0B651300B866AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE691F0B651300B866AF /* Assets.xcassets */; };
+		CEF6EE6D1F0B651300B866AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE6B1F0B651300B866AF /* LaunchScreen.storyboard */; };
+		CEF6EE751F0B694A00B866AF /* mp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE741F0B694A00B866AF /* mp3.mp3 */; };
+		CEF6EE771F0B6C3400B866AF /* mp3 (1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE761F0B6C3400B866AF /* mp3 (1).mp3 */; };
+		CEF6EE791F0B6CA600B866AF /* Charlie_Clouser_-_Shithole_Theme_Saw_Soundtrack_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE781F0B6CA600B866AF /* Charlie_Clouser_-_Shithole_Theme_Saw_Soundtrack_.mp3 */; };
+		CEF6EE7B1F0B6D7F00B866AF /* 10._.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE7A1F0B6D7F00B866AF /* 10._.mp3 */; };
+		CEF6EE7D1F0B6F0800B866AF /* -_Rag_Time_On_the_Rag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EE7C1F0B6F0800B866AF /* -_Rag_Time_On_the_Rag.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEF6EE5F1F0B651300B866AF /* falockAPP22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = falockAPP22.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF6EE621F0B651300B866AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF6EE641F0B651300B866AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF6EE671F0B651300B866AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF6EE691F0B651300B866AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF6EE6C1F0B651300B866AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF6EE6E1F0B651300B866AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF6EE741F0B694A00B866AF /* mp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = mp3.mp3; path = ../mp3.mp3; sourceTree = "<group>"; };
+		CEF6EE761F0B6C3400B866AF /* mp3 (1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mp3 (1).mp3"; sourceTree = "<group>"; };
+		CEF6EE781F0B6CA600B866AF /* Charlie_Clouser_-_Shithole_Theme_Saw_Soundtrack_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Charlie_Clouser_-_Shithole_Theme_Saw_Soundtrack_.mp3"; sourceTree = "<group>"; };
+		CEF6EE7A1F0B6D7F00B866AF /* 10._.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10._.mp3; sourceTree = "<group>"; };
+		CEF6EE7C1F0B6F0800B866AF /* -_Rag_Time_On_the_Rag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "-_Rag_Time_On_the_Rag.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF6EE5C1F0B651300B866AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF6EE561F0B651300B866AF = {
+			isa = PBXGroup;
+			children = (
+				CEF6EE611F0B651300B866AF /* falockAPP22 */,
+				CEF6EE601F0B651300B866AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF6EE601F0B651300B866AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF6EE5F1F0B651300B866AF /* falockAPP22.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF6EE611F0B651300B866AF /* falockAPP22 */ = {
+			isa = PBXGroup;
+			children = (
+				CEF6EE761F0B6C3400B866AF /* mp3 (1).mp3 */,
+				CEF6EE741F0B694A00B866AF /* mp3.mp3 */,
+				CEF6EE7A1F0B6D7F00B866AF /* 10._.mp3 */,
+				CEF6EE7C1F0B6F0800B866AF /* -_Rag_Time_On_the_Rag.mp3 */,
+				CEF6EE781F0B6CA600B866AF /* Charlie_Clouser_-_Shithole_Theme_Saw_Soundtrack_.mp3 */,
+				CEF6EE621F0B651300B866AF /* AppDelegate.swift */,
+				CEF6EE641F0B651300B866AF /* ViewController.swift */,
+				CEF6EE661F0B651300B866AF /* Main.storyboard */,
+				CEF6EE691F0B651300B866AF /* Assets.xcassets */,
+				CEF6EE6B1F0B651300B866AF /* LaunchScreen.storyboard */,
+				CEF6EE6E1F0B651300B866AF /* Info.plist */,
+			);
+			path = falockAPP22;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF6EE5E1F0B651300B866AF /* falockAPP22 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF6EE711F0B651300B866AF /* Build configuration list for PBXNativeTarget "falockAPP22" */;
+			buildPhases = (
+				CEF6EE5B1F0B651300B866AF /* Sources */,
+				CEF6EE5C1F0B651300B866AF /* Frameworks */,
+				CEF6EE5D1F0B651300B866AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = falockAPP22;
+			productName = falockAPP22;
+			productReference = CEF6EE5F1F0B651300B866AF /* falockAPP22.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF6EE571F0B651300B866AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEF6EE5E1F0B651300B866AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C9FGPCC4D9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEF6EE5A1F0B651300B866AF /* Build configuration list for PBXProject "falockAPP22" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF6EE561F0B651300B866AF;
+			productRefGroup = CEF6EE601F0B651300B866AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF6EE5E1F0B651300B866AF /* falockAPP22 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF6EE5D1F0B651300B866AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF6EE7D1F0B6F0800B866AF /* -_Rag_Time_On_the_Rag.mp3 in Resources */,
+				CEF6EE7B1F0B6D7F00B866AF /* 10._.mp3 in Resources */,
+				CEF6EE771F0B6C3400B866AF /* mp3 (1).mp3 in Resources */,
+				CEF6EE6D1F0B651300B866AF /* LaunchScreen.storyboard in Resources */,
+				CEF6EE751F0B694A00B866AF /* mp3.mp3 in Resources */,
+				CEF6EE6A1F0B651300B866AF /* Assets.xcassets in Resources */,
+				CEF6EE681F0B651300B866AF /* Main.storyboard in Resources */,
+				CEF6EE791F0B6CA600B866AF /* Charlie_Clouser_-_Shithole_Theme_Saw_Soundtrack_.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF6EE5B1F0B651300B866AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF6EE651F0B651300B866AF /* ViewController.swift in Sources */,
+				CEF6EE631F0B651300B866AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF6EE661F0B651300B866AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF6EE671F0B651300B866AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF6EE6B1F0B651300B866AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF6EE6C1F0B651300B866AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF6EE6F1F0B651300B866AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF6EE701F0B651300B866AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF6EE721F0B651300B866AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = falockAPP22/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1007.falockAPP22;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEF6EE731F0B651300B866AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C9FGPCC4D9;
+				INFOPLIST_FILE = falockAPP22/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1007.falockAPP22;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF6EE5A1F0B651300B866AF /* Build configuration list for PBXProject "falockAPP22" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF6EE6F1F0B651300B866AF /* Debug */,
+				CEF6EE701F0B651300B866AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF6EE711F0B651300B866AF /* Build configuration list for PBXNativeTarget "falockAPP22" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF6EE721F0B651300B866AF /* Debug */,
+				CEF6EE731F0B651300B866AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF6EE571F0B651300B866AF /* Project object */;
+}
