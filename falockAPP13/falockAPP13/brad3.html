@@ -1,0 +1,28 @@
+<h1>Falock Big Company</h1>
+<hr>
+<h2>Hello, World: <span id='here'></span><h2></br>
+<script>
+    function test1(){
+        // alert('OK')
+        confirm('Delete?')
+        prompt('Input ur name')
+    }
+
+    function test2(){
+        var here = document.getElementById('here')
+        here.innerHTML = parseInt(Math.random()*49+1)
+    }
+    function test03() {
+        var here = document.getElementById('id1');
+        here.innerHTML = 'III'
+    }
+    function test4(){
+        falock.test10()
+    }
+
+</script>
+
+<input type="button" value='click 1' onClick='test1()' /><br>
+<input type="button" value='click 2' onClick='test2()' /><br>
+<input type="button" value='click 4' onClick='test4()' /><br>
+<div id='id1'></div>
